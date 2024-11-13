@@ -1,10 +1,15 @@
 
+dore
 ├── data_preprocessing.py     # For data loading and preprocessing
 ├── model.py                  # For model definition and training
 ├── predict.py                # For predictions on new images
 ├── correct_and_retrain.py    # For correcting and retraining the model
-├── main.py                   # Main script to run the entire pipeline
-└── requirements.txt  
+└── main.py                   # Main script to run the entire pipeline
+
+── requirements.txt   # requirements.txt file
+── Docs               # Docs
+── .gitignore         # gitignore
+
 
 custom_dataset/ #contain pictures for the model's use
 ├── maize/ #contain maize pictures for dataset
@@ -15,6 +20,6 @@ custom_dataset/ #contain pictures for the model's use
 │   ├── sunflower1.jpg
 │   ├── sunflower2.jpg
 │   └── ...
-└── other_plant/
+└── other_plant/ #contain other (hopefully) pictures for dataset
     ├── other1.jpg
     └── ...

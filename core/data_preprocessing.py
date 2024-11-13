@@ -1,5 +1,6 @@
 import tensorflow as tf
 from tensorflow.keras.preprocessing.image import ImageDataGenerator
+import tensorflow_datasets as tfds
 
 # Define image size and batch size
 IMG_SIZE = 224
@@ -7,7 +8,7 @@ BATCH_SIZE = 32
 
 def load_data():
     # Load Oxford Flowers dataset (example dataset for testing)
-    import tensorflow_datasets as tfds
+    
     (train_data, val_data, test_data), ds_info = tfds.load(
         'oxford_flowers102',
         split=['train', 'validation', 'test'],
