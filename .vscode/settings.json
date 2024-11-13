@@ -1,0 +1,6 @@
+{
+
+    // Path to your virtual environment's Python interpreter
+    "python.pythonPath": "/home/ademola/Documents/Ahmed/Bahmed/plant-classification-model/pcm/bin/python",
+
+}

@@ -1,0 +1,20 @@
+
+├── data_preprocessing.py     # For data loading and preprocessing
+├── model.py                  # For model definition and training
+├── predict.py                # For predictions on new images
+├── correct_and_retrain.py    # For correcting and retraining the model
+├── main.py                   # Main script to run the entire pipeline
+└── requirements.txt  
+
+custom_dataset/ #contain pictures for the model's use
+├── maize/ #contain maize pictures for dataset
+│   ├── maize1.jpg
+│   ├── maize2.jpg
+│   └── ...
+├── sunflower/ #contain sunflower pictures for dataset
+│   ├── sunflower1.jpg
+│   ├── sunflower2.jpg
+│   └── ...
+└── other_plant/
+    ├── other1.jpg
+    └── ...
